@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Thông tin cá nhân</title>
+</head>
+<body>
+<div class="container">
+    <!-- --------------- HEADER --------------- -->
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Cao Quốc Duy</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list"><a href="#home" class="nav-link active-link">Trang chủ</a><div class="circle"></div></li>
+                <li class="nav_list"><a href="#about" class="nav-link">Giới thiệu</a><div class="circle"></div></li>
+                <li class="nav_list"><a href="#hobbies" class="nav-link">Yêu thích</a><div class="circle"></div></li>
+                <li class="nav_list"><a href="#certificates" class="nav-link">Chứng chỉ</a><div class="circle"></div></li>
+                <li class="nav_list"><a href="#skills" class="nav-link" id ="runSkill">Kỹ năng<a><div class="circle"></div></li>         
+                <li class="nav_list"><a href="#projects" class="nav-link">Projects</a><div class="circle"></div></li>
+                <li class="nav_list"><a href="#contact" class="nav-link">Liên hệ</a><div class="circle"></div></li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+    <section class="featured-box" id="home">
+        <div class="featured-text">
+            <div class="featured-text-card"><span>Quốc Duy</span></div>
+            <div class="featured-name"><p>I'm <span class="typedText"></span></p></div>
+            <div class="featured-text-info">
+                <p>Tôi là một lập trình viên và là sinh viên Trường Đại học Giao thông vận tải HCM với đam mê xây dựng các sản phẩm hiệu quả và sáng tạo.</p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn"><a href="#contact" class="nav-link">Liên hệ</a></button>
+            </div>
+            <div class="social_icons">
+                 <a href="https://facebook.com/quoc.duy.369705" target="_blank" class="icon" title="Facebook">
+                        <i class="uil uil-facebook"></i>
+                 </a>
+                 <a href="https://tiktok.com/@user39514923" target="_blank" class="icon" title="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                 </a>
+                 <a href="mailto:caoquocduydualeo@gmail.com" target ="_blank" class="icon" title="Gmail">
+                        <i class="uil uil-envelope"></i>
+                  </a>
+                 <a href="https://github.com/QuocDuy999" target="_blank" class="icon" title="GitHub">
+                        <i class="uil uil-github-alt"></i>
+                 </a>
+            </div>
+        </div>
+        <div class="featured-image">
+            <div class="image"><img src="/images/avatar.jpg" alt="avatar"></div>
+        </div>
+    </section>
+
+    <!-- -------------- Giới Thiệu ---------------- -->
+    <section class="section" id="about">
+        <div class="top-header"><h1>Giới thiệu Bản Thân</h1></div>
+        <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Giới thiệu bản thân</h3>
+                    <p> Xin chào! Mình tên là Cao Quốc Duy, hiện là sinh viên năm 2 tại Trường Đại học Giao thông Vận tải TP. Hồ Chí Minh, chuyên ngành Công nghệ thông tin. Mình có niềm đam mê với lập trình, phát triển phần mềm và luôn cố gắng rèn luyện kỹ năng mỗi ngày.</p>
+                </div>
+                <div class="about-info">
+                    <h3>Mục tiêu nghề nghiệp</h3>
+                    <p>Là sinh viên năm 2 ngành Công nghệ thông tin tại Trường Đại học Giao thông Vận tải TP.HCM, tôi mong muốn trở thành một lập trình viên giỏi, có khả năng tham gia vào các dự án công nghệ sáng tạo và mang tính ứng dụng cao. Tôi luôn nỗ lực học hỏi, rèn luyện kỹ năng và mong muốn được làm việc trong môi trường chuyên nghiệp để đóng góp những giải pháp hữu ích cho xã hội.</p>
+                </div>
+            </div>
+             <div class="col">
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Cơ sở ngành</h3>
+        </div>
+        <div class="skills-list">
+            <span>Nhập môn Lập trình</span>
+            <span>Lập trình hướng đối tượng</span>
+            <span>Cấu trúc dữ liệu & Giải thuật</span>
+            <span>Toán rời rạc</span>
+        </div>
+    </div>
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Lập trình & Ứng dụng</h3>
+        </div>
+        <div class="skills-list">
+            <span>Phát triển ứng dụng Web</span>
+            <span>Cơ sở dữ liệu</span>
+            <span>Lập trình Java</span>
+            <span>Lập trình Web với JavaScript</span>
+        </div>
+    </div>
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Hệ thống & Mạng</h3>
+        </div>
+        <div class="skills-list">
+            <span>Hệ điều hành</span>
+            <span>Mạng máy tính</span>
+            <span>Kiến trúc máy tính</span>
+        </div>
+    </div>
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Kỹ năng & Khác</h3>
+        </div>
+        <div class="skills-list">
+            <span>Kỹ năng mềm</span>
+            <span>Kỹ năng làm việc nhóm</span>
+            <span>Tiếng Anh chuyên ngành</span>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </section>
+
+    <!-- -------------- Yêu thích ---------------- -->
+    <section class="section" id="hobbies">
+        <div class="top-header">
+            <h1>Yêu Thích</h1>
+            <span>Những việc tôi thường làm vào thời gian rảnh</span>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images/amnhac.jpg" alt="Âm nhạc">
+                <div class="overlay">
+                    <i class="uil uil-headphones"></i>
+                    <h3>Âm nhạc</h3>
+                    <p>Nghe nhạc giúp thư giãn và tái tạo năng lượng.</p>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="images/bongda.jpg" alt="Thể thao">
+                <div class="overlay">
+                    <i class="uil uil-football"></i>
+                    <h3>Thể thao</h3>
+                    <p>Chơi đá bóng và theo dõi những trận cầu hấp dẫn.</p>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="images/dientu.jpg" alt="Gaming">
+                <div class="overlay">
+                    <i class="uil uil-game-structure"></i>
+                    <h3>Gaming</h3>
+                    <p>Thư giãn với các trò chơi điện tử sau giờ học.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------- Chứng chỉ ---------------- -->
+<section class="section" id="certificates">
+    <div class="top-header"><h1>Chứng chỉ - Giải thưởng</h1></div>
+    <div class="about-info">
+        <p>Hiện tại tôi chưa có chứng chỉ hoặc giải thưởng nào chính thức. Tôi đang cố gắng học hỏi để đạt được trong tương lai.</p>
+    </div>
+</section>
+
+
+    <!-- -------------- skills ---------------- -->
+    <section class="section" id="skills">
+        <div class="top-header">
+            <h1>Kỹ Năng Của Tôi</h1>
+            <span>Kỹ thuật chuyên nghiệp</span> 
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Kỹ năng ngôn ngữ</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Java</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class ="java"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>65%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+            </div>        
+            <div class="skill-right">
+                <h3>Kỹ năng chuyên môn</h3>
+                <div class="porfessional">
+                    <div class="box">
+                        <div class="circlee" data-dots ="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Làm việc nhóm</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                       <div class="circlee" data-dots ="80" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Tin học văn phòng</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                       <div class="circlee" data-dots ="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Quản lý thời gian</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                       <div class="circlee" data-dots ="80" data-percent="75"></div>
+                        <div class="text">
+                            <big>75%</big>
+                            <small>Kỹ năng trình bày</small>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    </section>
+
+    <!-- -------------- PROJECT ---------------- -->
+    <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Dự Án Cá Nhân</h1>
+            <span>Những dự án và bài tập thực tế giúp mình rèn luyện kỹ năng lập trình và phát triển ứng dụng web</span>
+            <br>
+            <span>Chưa có dự án thực tế, nhưng tôi luôn sẵn sàng học hỏi và tham gia khi có cơ hội phù hợp</span>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="/images/1.jpg" alt="Project 1">
+                <div class="overlay">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Bài tập đã hoàn thành</h3>
+                    <p>5+ dự án nhỏ trong quá trình học</p>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="/images/2.jpg" alt="Project 2">
+                <div class="overlay">
+                    <i class="uil uil-laptop"></i>
+                    <h3>Dự án thực hành</h3>
+                    <p>Quản lý đấu giá, RoBot Tìm Đường Mê Cung, Website CV,...</p>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="images/3.jpg" alt="Project 3">
+                <div class="overlay">
+                    <i class="uil uil-graduation-cap"></i>
+                    <h3>Kinh nghiệm học tập</h3>
+                    <p>1.5+ năm học lập trình và thực hành Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------- Liên hệ ---------------- -->
+    <section class="section" id="contact">
+        <div class="top-header"><h1>Liên Hệ Với Tôi</h1><span>Bạn đang có ý tưởng dự án? Hãy gửi tin nhắn ngay tại đây!</span></div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Liên hệ tôi <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email liên hê: caoquocduydualeo@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Số điện thoại: 0338783757</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Họ và tên">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area"><textarea placeholder="Lời nhắn"></textarea></div>
+                    <div class="form-button">
+                        <button class="btn">Gửi ngay<i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer"><p>Hành trình ngàn dặm bắt đầu từ một bước chân</p></div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list"><a href="#home">Trang chủ</a></li>
+                <li class="footer_menu_list"><a href="#about">Giới thiệu</a></li>
+                <li class="footer_menu_list"><a href="#hobbies">Yêu thích</a></li>
+                <li class="footer_menu_list"><a href="#certificates">Chứng chỉ</a></li>
+                <li class="footer_menu_list"><a href="#projects">Projects</a></li>
+                <li class="footer_menu_list"><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-facebook"></i></div>
+            <div class="icon"><i class="fa-brands fa-tiktok"></i></div>
+            <div class="icon"><i class="uil uil-envelope"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home">Quốc Duy</a> - All rights reserved</p>
+        </div>
+    </footer>
+</div>
+
+<!-- JS Scripts -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="/main.js"></script>
+</body>
+</html>
